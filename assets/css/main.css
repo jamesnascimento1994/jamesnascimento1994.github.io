@@ -175,11 +175,6 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p {
-		text-align: justify;
-		margin: 0 0 2rem 0;
-	}
-
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
@@ -214,14 +209,30 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1rem;
+		text-align: right;
 	}
 
 	h5 {
 		font-size: 0.9rem;
 	}
 
+	span {
+		text-transform: capitalize;
+	}
+
 	h6 {
 		font-size: 0.8rem;
+	}
+
+	#statement {
+		display: flex;
+		text-align: right;
+		flex-direction: column;
+	}
+
+	.statement-content {
+		margin-left: 25rem;
+		font-size: 20px;
 	}
 
 	sub {
@@ -2646,6 +2657,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			img {
+				position: absolute;
+				left: 10px;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
@@ -3313,7 +3329,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		/* min-height: 100vh; */
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3456,7 +3472,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				/* min-height: 90vh; */
 			}
 
 				#intro p br {
@@ -3467,13 +3483,17 @@ input, select, textarea {
 					margin-top: -14rem;
 				}
 
+			img {
+				width: 100%;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				/* min-height: 80vh; */
 			}
 
 				#intro h1 {
@@ -3490,6 +3510,9 @@ input, select, textarea {
 				#intro .actions {
 					display: none;
 				}
+			img {
+				width: 100%;
+			}
 
 		}
 

@@ -23,7 +23,7 @@
 		<div id="wrapper" class="fade-in">
 			<!-- Intro -->
 			<div id="intro">
-				<img src="https://i.imgur.com/ZqG97YD.png" alt="">
+				<!-- <img src="https://i.imgur.com/cHsstv6.png" alt=""> -->
 			</div>
 
 			<!-- Header -->
@@ -59,18 +59,18 @@
 						<h2>
 							James Nascimento
 						</h2>
+						<img src="https://i.imgur.com/cHsstv6.png" alt="">
 						<h4>About Me</h4>
-						<p>I’m a musician who also found joy in software development.</p>
-						<br>
-						<p>I love playing music and it is still a passion of mine, but due to the current global pandemic, it is even harder to
-						make a living while being a musician full-time. I was introduced to the idea of taking a coding bootcamp. At first I
-						wasn’t sure if this is what I wanted to do, so I took a part time course that covered front end web development. While I
-						was going through the online tutorials prior, I had a feeling that I would enjoy this, a lot.</p>
-						<br>
-						<p>About mid-way through the course, I realized I wanted to pursue this as a job. So I took a full time software
-						engineering bootcamp. During it, I created three applications by myself and one application with three other students in
-						my cohort. I learned so much and met very cool people. I now look at coding as a skill that I want to hone continuously.
-						This is just the beginning.</p>
+						<div id='statement'>
+							<p>A tech nerd that also loves playing music.</p>
+							<br>
+						<div class="statement-content">
+
+							<p>I am a software engineer located in the East Coast. The applications that I enjoy making are the ones that are friendly to the user and that is super important especially when our current social climate, is rather unfriendly.</p>
+							<br>
+							<p>I have created three applications by myself (Flash Cars, Rush iToonz, and Bassopedia) and one application with three other developers called Play-List.</p>
+						</div>
+						</div>
 					</header>
 					<h3>Applications that I created</h3>
 				</article>
@@ -80,8 +80,77 @@
 					<article>
 						<header>
 							<h2>
+								<a href="https://salty-cliffs-88075.herokuapp.com/">
+									Play-List</a>
+							</h2>
+							<a href="https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be">Showcase Video</a>
+						</header>
+						<a href="https://salty-cliffs-88075.herokuapp.com/" class="image fit"><iframe
+								src="https://salty-cliffs-88075.herokuapp.com/" frameborder="0"></iframe></a>
+							<h5><a href="https://salty-cliffs-88075.herokuapp.com/">Click Here to view Deployed App</a></h5>
+						<h5>Deployed Backend links <span>(APIs):</span></h5>
+						<ul>
+					
+							<li>
+								<a href="https://secure-ravine-81663.herokuapp.com/playlists">Playlists</a>
+							</li>
+							<li>
+								<a href="https://secure-ravine-81663.herokuapp.com/songs">Songs</a>
+							</li>
+						</ul>
+						<p>An API with video games and their playlists! This was a collaborative effort with three other developers. React.js and bootstrap.js were used for the frontend. Express was used for the backend.</p>
+						<a href="https://github.com/teamscrum2000/font-end-uhhh" class="button">GitHub Repository
+							Link (Frontend)</a>
+						<a href="https://github.com/teamscrum2000/back-end-uhhh" class="button">GitHub Repository
+							Link (Backend)</a>
+					</article>
+					<article>
+						<header>
+							<h2>
+								<a href="https://bassopedia.herokuapp.com/">
+									Bassopedia</a>
+							</h2>
+							<a href="https://www.youtube.com/watch?v=M8s6HRDLdW8&feature=youtu.be">Showcase Video</a>
+						</header>
+						<a href="https://bassopedia.herokuapp.com/" class="image fit"><iframe src="https://bassopedia.herokuapp.com/"
+								frameborder="0"></iframe></a>
+								<h5><a href="https://bassopedia.herokuapp.com/">Click Here to view Deployed App</a></h5>
+						<h5>Deployed Backend links <span>(APIs):</span></h5>
+						<ul>
+					
+							<li>
+								<a href="https://floating-chamber-81210.herokuapp.com/genres/">Genres</a>
+							</li>
+							<li>
+								<a href="https://floating-chamber-81210.herokuapp.com/bassists/">Bassists</a>
+							</li>
+						</ul>
+						<p>An API with my favorite bassists and their genres! This was made with React.js and bootstrap.js for the frontend. Python and Django were used for the backend. (CRUD functionality and authentication coming soon)</p>
+						<a href="https://github.com/jamesnascimento1994/bassopedia" class="button">GitHub Repository
+							Link (Frontend)</a>
+						<a href="https://github.com/jamesnascimento1994/project-four-backend" class="button">GitHub Repository
+							Link (Backend)</a>
+					</article>
+					<article>
+						<header>
+							<h2>
+								<a href="https://rushitoonzapp.herokuapp.com/">
+									Rush iToonz</a>
+							</h2>
+							<a href="https://www.youtube.com/watch?v=JICsV91VL5g">Showcase Video</a>
+						</header>
+						<a href="https://rushitoonzapp.herokuapp.com/" class="image fit"><iframe src="https://rushitoonzapp.herokuapp.com/"
+								frameborder="0"></iframe></a>
+								<h5><a href="https://rushitoonzapp.herokuapp.com/">Click Here to view Deployed App</a></h5>
+						<p>An API with Canadian progressive rock trio Rush's Discography! Built with React.js and a fetched iTunes API.</p>
+						<a href="https://github.com/jamesnascimento1994/sei-project-two-rushitoonz" class="button">GitHub Repository
+							Link</a>
+					</article>
+					<article>
+						<header>
+							<h2>
 								<a href="https://jamesnascimento1994.github.io/sei-project-one/"
-									>Project One<br />
+									>
 									Flash Cars</a
 								>
 							</h2>
@@ -93,7 +162,8 @@
 							href="https://jamesnascimento1994.github.io/sei-project-one/"
 							class="image fit"
 							><iframe src="https://jamesnascimento1994.github.io/sei-project-one/" frameborder="0"></iframe></a>
-						<p>A flashcard/trivia app that tests your knowledge of cars</p>
+							<h5><a href="https://jamesnascimento1994.github.io/sei-project-one/">Click Here to view Deployed App</a></h5>
+						<p>A flashcard/trivia app that tests your knowledge of cars! Built with HTML, CSS, and JavScript.</p>
 						<ul class="actions special">
 							<li>
 								<a
@@ -103,78 +173,6 @@
 								>
 							</li>
 						</ul>
-					</article>
-					<article>
-						<header>
-							<h2>
-								<a href="https://rushitoonzapp.herokuapp.com/"
-									>Project Two<br />
-									Rush iToonz</a
-								>
-							</h2>
-							<a href="https://www.youtube.com/watch?v=JICsV91VL5g"
-								>Showcase Video</a
-							>
-						</header>
-						<a href="https://rushitoonzapp.herokuapp.com/" class="image fit"
-							><iframe src=https://rushitoonzapp.herokuapp.com/ frameborder="0"></iframe></a>
-						<p>An API with Rush's Discography</p>
-						<a
-							href="https://github.com/jamesnascimento1994/sei-project-two-rushitoonz"
-							class="button"
-							>GitHub Repository Link</a
-						>
-					</article>
-					<article>
-						<header>
-							<h2>
-								<a href="https://salty-cliffs-88075.herokuapp.com/">Project Three<br />
-									Play-List</a>
-							</h2>
-							<a href="https://www.youtube.com/watch?v=tUT6lpVYvBY&feature=youtu.be">Showcase Video</a>
-						</header>
-						<a href="https://salty-cliffs-88075.herokuapp.com/" class="image fit"><iframe src="https://salty-cliffs-88075.herokuapp.com/"
-								frameborder="0"></iframe></a>
-						<h5>Deployed Backend links:</h5>
-						<ul>
-					
-							<li>
-								<a href="https://secure-ravine-81663.herokuapp.com/playlists">Playlists</a>
-							</li>
-							<li>
-								<a href="https://secure-ravine-81663.herokuapp.com/songs">Songs</a>
-							</li>
-						</ul>
-						<p>An API with video games and their playlists!</p>
-						<a href="https://github.com/teamscrum2000/font-end-uhhh" class="button">GitHub Repository
-							Link (Frontend)</a>
-						<a href="https://github.com/teamscrum2000/back-end-uhhh" class="button">GitHub Repository
-							Link (Backend)</a>
-					</article>
-					<article>
-						<header>
-							<h2>
-								<a href="https://bassopedia.herokuapp.com/">Final Project<br />
-									Bassopedia</a>
-							</h2>
-							<a href="https://www.youtube.com/watch?v=M8s6HRDLdW8&feature=youtu.be">Showcase Video</a>
-						</header>
-						<a href="https://bassopedia.herokuapp.com/" class="image fit"><iframe src="https://bassopedia.herokuapp.com/" frameborder="0"></iframe></a>
-						<h5>Deployed Backend links:</h5>
-						<ul>
-
-							<li>
-								<a href="https://floating-chamber-81210.herokuapp.com/genres/">Genres</a>
-							</li>
-							<li>
-								<a href="https://floating-chamber-81210.herokuapp.com/bassists/">Bassists</a>
-							</li>
-						</ul>
-						<p>An API with my favorite bassists and their genres! (CRUD functionality and authentication coming soon)</p>
-						<a href="https://github.com/jamesnascimento1994/bassopedia" class="button">GitHub Repository
-							Link (Frontend)</a>
-						<a href="https://github.com/jamesnascimento1994/project-four-backend" class="button">GitHub Repository
-								Link (Backend)</a>
 					</article>
 				</section>
 			</div>
